@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Euro from './Euro';
+import Pound from './Pound';
 
 class Amount extends Component {
   constructor(props) {
@@ -28,6 +30,9 @@ class Amount extends Component {
         <button type="button" onClick={this.onDecrement}>
           -
         </button>
+
+        <Euro amount={this.state.amount} />
+        <Pound amount={this.state.amount} />
       </div>
     );
   }
