@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Amount from './components/Amount';
 import Euro from './components/Euro';
 import Pound from './components/Pound';
